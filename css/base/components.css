@@ -1,0 +1,30 @@
+.btn {
+  width: 15rem;
+  padding: 1rem;
+  font-weight: 600;
+  border: 1px solid;
+  border-radius: 2rem;
+}
+
+.btn.btn--main {
+  color: var(--bg-primary-color);
+  background-color: var(--primary-color);
+  transition: all 0.4s;
+}
+
+.btn--main:hover {
+  border: 0.1rem solid var(--primary-color);
+  color: var(--white);
+  background-color: transparent;
+}
+
+.btn--transparent {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  transition: all 0.4s;
+}
+
+.btn--transparent:hover {
+  color: var(--bg-primary-color);
+  background-color: var(--primary-color);
+}

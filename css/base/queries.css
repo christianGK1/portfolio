@@ -1,0 +1,23 @@
+@media screen and (max-width: 1050px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .hero .hero-content,
+  .about .about-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  html {
+    font-size: 45%;
+  }
+
+  .hero .hero-img img {
+    height: auto;
+  }
+}

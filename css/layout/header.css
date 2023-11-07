@@ -1,0 +1,27 @@
+.header {
+  display: none;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header-logo {
+  font-size: 2.5rem;
+}
+
+.header-nav {
+  height: 10vh;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  height: 100%;
+}
+
+.header-nav-link {
+}
