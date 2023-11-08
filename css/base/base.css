@@ -33,13 +33,13 @@ ul {
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: var(--white);
 }
 
 a:link,
 a:visited {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-decoration: none;
   color: var(--white);
 }

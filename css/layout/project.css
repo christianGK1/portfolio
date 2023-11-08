@@ -1,5 +1,6 @@
 .projects-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 3rem;
@@ -7,7 +8,7 @@
 }
 
 .project-card {
-  width: 40rem;
+  width: 34rem;
   padding: 3rem;
   border: 0.2rem solid var(--bg-secondary-color);
   border-radius: 2rem;
