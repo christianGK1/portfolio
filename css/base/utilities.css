@@ -1,0 +1,35 @@
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 7rem 3rem;
+}
+
+.heading-primary {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.u-align-items-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.u-text-color {
+  color: var(--primary-color);
+}
+
+.u-text-l {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.u-mb-m {
+  margin-bottom: 2rem;
+}

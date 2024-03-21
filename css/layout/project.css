@@ -1,0 +1,35 @@
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.project-card {
+  width: 34rem;
+  padding: 3rem;
+  border: 0.2rem solid var(--bg-secondary-color);
+  border-radius: 2rem;
+  background-color: var(--bg-secondary-color);
+  transition: all 0.4s;
+}
+
+.project-card:hover {
+  border: 0.2rem solid var(--primary-color);
+  transform: translateY(-1rem);
+}
+
+.project-card img {
+  border-radius: 2rem;
+}
+
+.project-card h3 {
+  margin: 2rem 0;
+}
+
+.project-card .btn {
+  width: auto;
+  padding: 1rem 3rem;
+}

@@ -1,0 +1,21 @@
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.hero-img img {
+  height: 40rem;
+}
+
+.hero-description .hero-title {
+  font-size: 4.8rem;
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}

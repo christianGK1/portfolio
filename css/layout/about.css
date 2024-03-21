@@ -1,0 +1,33 @@
+.about {
+  background-color: var(--bg-secondary-color);
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.about-img img {
+  width: 40rem;
+}
+
+.about-experience {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3.2rem;
+}
+
+.about-experience-box {
+  flex: 1;
+  padding: 2.4rem;
+  text-align: center;
+  border: 0.1rem solid var(--primary-color);
+  border-radius: 2rem;
+}
+
+.about-experience-box i {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  color: var(--primary-color);
+}
