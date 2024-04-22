@@ -32,6 +32,15 @@
   gap: 4rem;
 }
 
+.header-nav-link {
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.header-nav-link:hover {
+  color: var(--primary-color);
+}
+
 .header-mobile-nav {
   display: none;
 }
